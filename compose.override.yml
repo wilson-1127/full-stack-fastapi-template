@@ -1,6 +1,7 @@
 services:
 
   # Local services are available on their ports, but also available on:
+  # 本地服务可在其端口上使用，也可在以下位置使用：
   # http://api.localhost.tiangolo.com: backend
   # http://dashboard.localhost.tiangolo.com: frontend
   # etc. To enable it, update .env, set:
@@ -13,6 +14,7 @@ services:
       - "80:80"
       - "8090:8080"
     # Duplicate the command from compose.yml to add --api.insecure=true
+    # 将 compose.yml 中的命令复制以添加 --api.insecure=true
     command:
       # Enable Docker in Traefik, so that it reads labels from Docker services
       - --providers.docker

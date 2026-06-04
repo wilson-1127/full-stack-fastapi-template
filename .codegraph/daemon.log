@@ -1,0 +1,4 @@
+[CodeGraph daemon] Listening on /Users/wilson./workspace/code/py/open-source/full-stack-fastapi-template/.codegraph/daemon.sock (pid 26521, v0.9.9). Idle timeout 300000ms.
+[CodeGraph MCP] File watcher active — graph will auto-sync on changes
+[CodeGraph MCP] Auto-synced 1 file(s) in 158ms
+[CodeGraph MCP] Auto-synced 1 file(s) in 82ms
