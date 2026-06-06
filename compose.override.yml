@@ -61,7 +61,6 @@ services:
     restart: "no"
     ports:
       - "8000:8000"
-    pull_policy: build
     build:
       context: .
       dockerfile: backend/Dockerfile
@@ -100,7 +99,6 @@ services:
     restart: "no"
     ports:
       - "5173:80"
-    pull_policy: build
     build:
       context: .
       dockerfile: frontend/Dockerfile
